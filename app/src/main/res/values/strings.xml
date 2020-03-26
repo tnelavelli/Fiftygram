@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Fiftygram</string>
+    <string name="choosePhoto">Choose Photo</string>
+    <string name="applySepia">Apply Sepia Filter</string>
 </resources>
