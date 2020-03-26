@@ -14,7 +14,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView"
-                android:layout_gravity="center_horizontal"/>
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/image_description"/>
         <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -29,5 +30,33 @@
                 android:id="@+id/applySepiaButton"
                 android:layout_gravity="center_horizontal"
                 android:onClick="applySepia"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/applyToon"
+                android:id="@+id/applyToonButton"
+                android:layout_gravity="center_horizontal"
+                android:onClick="applyToon"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/applySketch"
+                android:id="@+id/applySketchButton"
+                android:layout_gravity="center_horizontal"
+                android:onClick="applySketch"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/remove_filters"
+                android:id="@+id/removeFilterButton"
+                android:layout_gravity="center_horizontal"
+                android:onClick="removeFilters"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:id="@+id/save_button"
+                android:layout_gravity="center_horizontal"
+                android:onClick="savePhoto"/>
     </LinearLayout>
 </ScrollView>

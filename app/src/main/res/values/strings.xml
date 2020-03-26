@@ -2,4 +2,9 @@
     <string name="app_name">Fiftygram</string>
     <string name="choosePhoto">Choose Photo</string>
     <string name="applySepia">Apply Sepia Filter</string>
+    <string name="applyToon">Apply Toon Filter</string>
+    <string name="applySketch">Apply Sketch Filter</string>
+    <string name="image_description">Image Description</string>
+    <string name="save">Save</string>
+    <string name="remove_filters">Remove Filters</string>
 </resources>
